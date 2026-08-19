@@ -1,0 +1,22 @@
+
+#hero {
+    background-image: url('images/hero.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+
+@media screen and (min-width: 360px){
+
+
+    #caption {
+        text-align: center;
+        color: white;
+        margin-top: 2rem;
+        padding: .2rem;
+        min-width: 90%;
+    }
+}

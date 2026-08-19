@@ -1,0 +1,14 @@
+
+
+.cards {
+
+	border-radius: 20px;
+	transition: .2s ease-in-out;
+}
+
+
+.cards:hover {
+	
+	cursor: pointer;
+	transform: scale(1.03);
+}
