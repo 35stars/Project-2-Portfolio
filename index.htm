@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Website</title>
+
+    <!-- Bootstrap 5.3 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="video.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="py-2">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <!-- Logo -->
+            <a id="logo" class="fw-bold" href="#">
+                My Portfolio
+            </a>
+
+            <!-- Mobile Button -->        
+            <button id="menu-btn" class="navbar-toggler">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation -->
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-links" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-links" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-links" href="#projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-links" href="#skills">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-links" href="#video">Bootstrap 5 Tutorial</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-links" href="#contact">Contact &nbsp;Me</a>
+                    </li>
+
+                    <li class="nav-item" id="drop-down">
+                      <a class="nav-links" href="#">Socials/ Repo &nbsp;</a>
+                      <ul id="options">
+                        <li><a class="nav-links" href="https://www.facebook.com/jamestar.navarro" target="_blank">Facebook</a></li>
+                        <li><a class="nav-links" href="https://github.com/35stars?tab=repositories" target="_blank">Github</a></li>
+                        
+                        <li><a class="nav-links" href="https://www.youtube.com/@ilearnwithstar4389" target="_blank">YouTube</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+
+<!-- ================= HERO ================= -->
+<section id="hero" class="position-relative">
+
+    <div id="caption" class="position-absolute col-10 col-lg-8 col-md-8 col-sm-10 bg-opacity-75 bg-dark rounded-4 top-50 start-50 translate-middle p-3" 
+    >
+      <h2>Hello, I am Jamestar Kee Navarro</h2>
+      <p class="fs-5">I'm a graduate of Computer Science in 2010 and has taken additional Full Stack Web Development course with tutor Michael Garcia Tan in his learntechnologytoday.net platform</p>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="min-vh-100 py-5">
+    <div class="container pt-5">
+
+        <div class="row align-items-center g-4 d-flex flex-row-reverse">
+
+            <!-- Image -->
+            <div class="col-12 col-md-6">
+                <img 
+                    src="images/about-image.jpg"
+                    alt="About me"
+                    class="img-fluid rounded-4 shadow"
+                >
+            </div>
+
+            <!-- Content -->
+            <div class="col-12 col-md-6">
+
+              <div id="about-text" class="heading">
+                  <h2 class="fw-bold display-6 text-lg-start text-md-start text-sm-center">About Me</h2>
+                  <p class="text-muted pb-2 text-lg-start text-md-start text-sm-center">
+                      Learn more about who I am and what I do.
+                  </p>
+              </div>
+
+              <h3 class="fw-bold mb-3">
+                  Hello, I'm an aspiring Full Stack Web Developer
+              </h3>
+
+              <p class="text-muted">
+                  I enjoy creating responsive websites
+                  using HTML, CSS, JavaScript and other frameworks like Bootstrap, etc.
+              </p>
+
+              <p class="text-muted">
+                  My goal is to build websites that are simple,
+                  user-friendly, and work well on different screen sizes.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<!-- Projects Section -->
+<section id="projects" class="min-vh-100 pt-5 bg-light">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="heading text-center my-5">
+      <h2 class="fw-bold display-6">My Projects</h2>
+      <p class="text-muted">
+        Here are some of the projects I have worked on.
+      </p>
+    </div>
+
+    <!-- Project Cards -->
+    <div class="row g-4">
+
+      <!-- Project 1 -->
+      <div class="cards col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+
+          <img
+            src="images/farm fresh.jpg"
+            class="card-img-top"
+            alt="Project One"
+          >
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Farm Fresh</h5>
+
+            <p class="card-text text-muted">
+              A responsive website created using HTML & CSS
+            </p>
+
+            <div class="mb-3">
+              <span class="badge bg-primary">HTML</span>
+              <span class="badge bg-secondary">CSS</span>
+            </div>
+
+            <a href="https://35stars.github.io/Farm-Fresh-Site" target="_blank" class="btn btn-primary mt-auto">
+              View Project
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="cards col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+
+          <img
+            src="images/simple e-commerce store.jpg"
+            class="card-img-top"
+            alt="Project Two"
+          >
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Simple E-Commerce</h5>
+
+            <p class="card-text text-muted">
+              A website that sells pre-printed shirts and provides silkscreen services. 
+            </p>
+
+            <div class="mb-3">
+              <span class="badge bg-primary">HTML</span>
+              <span class="badge bg-secondary">CSS</span>
+              <span class="badge bg-warning text-dark">JavaScript</span>
+            </div>
+
+            <a href="https://35stars.github.io/simple-e-commerce-level-2-site-project/" target="_blank" class="btn btn-primary mt-auto">
+              View Project
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="cards col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+
+          <img
+            src="images/counting animals.jpg"
+            class="card-img-top"
+            alt="Project Three"
+          >
+
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold">Counting Game</h5>
+
+            <p class="card-text text-muted">
+              A simple but engaging counting game for kids.
+            </p>
+
+            <div class="mb-3">
+              <span class="badge bg-primary">HTML</span>
+              <span class="badge bg-secondary">CSS</span>
+               <span class="badge bg-warning text-dark">JavaScript</span>
+            </div>
+
+            <a href="https://35stars.github.io/Counting-Game/" target="_blank" class="btn btn-primary mt-auto">
+              View Project
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="min-vh-100 py-5 bg-light">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="heading text-center my-5">
+      <h2 class="fw-bold display-6">My Skills</h2>
+      <p class="text-secondary">
+        Technologies and tools I work with
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- HTML -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="d-flex justify-content-between mb-2">
+            <span class="fw-semibold">HTML</span>
+          </div>
+
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="HTML skill level"
+            aria-valuenow="90"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="height: 15px"
+          >
+            <div class="progress-bar bg-success">90%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- React -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="d-flex justify-content-between mb-2">
+            <span class="fw-semibold">React%</span>
+          </div>
+
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="React skill level"
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="height: 15px;"
+          >
+            <div class="progress-bar">75%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CSS -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="d-flex justify-content-between mb-2">
+            <span class="fw-semibold">CSS</span>
+          </div>
+
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="CSS skill level"
+            aria-valuenow="85"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="height: 15px;"
+          >
+            <div class="progress-bar bg-info">85%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Next.js -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="d-flex justify-content-between mb-2">
+            <span class="fw-semibold">Next.js</span>
+          </div>
+
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Next.js skill level"
+            aria-valuenow="70"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="height: 15px;"
+          >
+            <div class="progress-bar bg-dark">70%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="d-flex justify-content-between mb-2">
+            <span class="fw-semibold">JavaScript</span>
+          </div>
+
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="JavaScript skill level"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="height: 15px;"
+          >
+            <div class="progress-bar bg-warning">80%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Node.js -->
+      <div class="col-12 col-md-6">
+        <div class="skill-item">
+          <div class="d-flex justify-content-between mb-2">
+            <span class="fw-semibold">Node.js</span>
+          </div>
+
+          <div
+            class="progress"
+            role="progressbar"
+            aria-label="Node.js skill level"
+            aria-valuenow="65"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="height: 15px;"
+          >
+            <div class="progress-bar bg-secondary">65%
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- ================= VIDEO ================= -->
+<section id="video" class="min-vh-100 py-5">
+  <div class="container col-lg-7 col-md-10 col-sm-11 pt-4">
+
+    <!-- Section Heading -->
+    <div class="heading text-center pt-4 mb-5">
+      <h2 class="fw-bold display-6">Bootstrap 5 Tutorial</h2>
+      <p class="text-muted">
+        Check out this video and learn more about my project.
+      </p>
+    </div>
+
+    <!-- Video -->
+    <div class="row justify-content-center">
+        <div class="text-center video-wrapper">
+          <iframe
+            class="rounded-3"
+            src="https://www.youtube.com/embed/b9g4_8nAsdA"
+            title="My Video"
+  
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+        </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="container-fluid min-vh-100 contact-section bg-dark py-5">
+  <div class="contact-container d-flex flex-column align-items-center pt-4">
+
+    <div class="heading d-flex flex-column align-items-center contact-info p-4">
+      <h2 class="fw-bold display-6 text-light">Contact Me</h2>
+      <p class="text-light">
+        Have a question or want to get in touch?
+        Fill out the form and I'll get back to you.
+      </p>
+    </div>
+
+    <form class="container px-3 fw-bolder mb-5 col-md-7 col-lg-6 d-flex flex-column contact-form bg-light">
+
+      <div class="py-2 d-flex flex-column form-group">
+        <label for="name">Name</label>
+        <input
+          class="ps-1 "
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        >
+      </div>
+
+      <div class="py-2 d-flex flex-column form-group">
+        <label for="email">Email</label>
+        <input
+          class="ps-1"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        >
+      </div>
+
+      <div class="pt-2 d-flex flex-column form-group">
+        <label for="message">Message</label>
+        <textarea class="ps-1" 
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Write your message..."
+          required
+        ></textarea>
+      </div>
+
+      <button class="my-2 align-self-center btn btn-primary fw-bold text-white" style="width: max-content;" type="submit">Send</button>
+    </form>
+
+  </div>
+</section>
+
+<!-- ================= QUICK LINKS ================= -->
+<section id="quick-links" class="bg-dark text-white py-5">
+  <div class="container">
+
+    <div class="text-center row g-2">
+
+      <!-- Quick Links -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <h5 class="mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <a href="#" class="text-white text-decoration-none">Home</a>
+          </li>
+          <li class="mb-2">
+            <a href="#about" class="text-white text-decoration-none">About</a>
+          </li>
+          <li class="mb-2">
+            <a href="#projects" class="text-white text-decoration-none">Projects</a>
+          </li>
+          <li class="mb-2">
+            <a href="#skills" class="text-white text-decoration-none">Skills</a>
+          </li>
+          <li class="mb-2">
+            <a href="#video" class="text-white text-decoration-none">Bootstrap 5 Tutorial</a>
+          </li>
+          <li class="mb-2">
+            <a href="#contact" class="text-white text-decoration-none">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <h5 class="mb-3">Resources</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <a href="#" class="text-white text-decoration-none">Blog</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="text-white text-decoration-none">Projects</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="text-white text-decoration-none">FAQ</a>
+          </li>
+          <li>
+            <a href="#" class="text-white text-decoration-none">Support</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Social -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <h5 class="mb-3">Social</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <a href="https://www.facebook.com/jamestar.navarro" target="_blank" class="text-white text-decoration-none">Facebook</a>
+          </li>
+          <li class="mb-2">
+            <a href="https://github.com/35stars?tab=repositories" target="_blank" class="text-white text-decoration-none">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@ilearnwithstar4389" target="_blank" class="text-white text-decoration-none">YouTube</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Legal -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <h5 class="mb-3">Legal</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <a href="#" class="text-white text-decoration-none">Privacy Policy</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="text-white text-decoration-none">Terms of Service</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="text-white text-decoration-none">Cookie Policy</a>
+          </li>
+          <li>
+            <a href="#" class="text-white text-decoration-none">Disclaimer</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="d-flex align-items-center bg-dark text-white py-4">
+
+  <div class="container">
+    <div class="d-flex flex-column align-items-center">
+
+      <!-- Copyright -->
+      <div class="col-12 col-md-6 text-center text-md-center mb-3 mb-md-0">
+        <p class="mb-0">
+          &copy; 2026 Copyright. All rights reserved.
+        </p>
+      </div> 
+      <!-- Social Links -->
+      <div class="col-12 col-md-6 text-center text-md-center">
+        <span class="me-2">Follow me on:</span>
+            <a href="https://www.facebook.com/jamestar.navarro" target="_blank" class="text-white text-decoration-none">
+              Facebook &
+            </a>
+
+            <a href="https://www.youtube.com/@ilearnwithstar4389" target="_blank" class="text-white text-decoration-none">
+              YouTube,
+            </a>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JavaScript -->
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<script src="animation.js"></script>
+<script src="odometer.js"></script>
+<script src="header.js"></script>
+<script src="skills.js"></script> 
+</body>
+</html>
