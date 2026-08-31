@@ -28,14 +28,4 @@ menuBtn.addEventListener('click',()=>{
     mainNav.classList.toggle('show')
 })    
 
-mainNav.addEventListener('mouseover', (e) => {
-
-    if (e.target.tagName !== 'A') return;
-
-    // Ignore dropdown links
-    if (e.target.closest('#drop-down')) return;
-
-    window.location.href = e.target.getAttribute('href');
-});
-
 
